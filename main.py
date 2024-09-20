@@ -62,7 +62,7 @@ class Sherik(StatesGroup):
 
 @dp.message(Command("start"))
 async def start_button(message: Message):
-    await message.answer(f"Assalomu Alaykum {message.from_user.first_name} Ustoz-Shogird Botiga hush kelibsiz!")
+    await message.answer(f"Assalomu Alaykum {message.from_user.first_name} Ustoz-Shogird Botimizga hush kelibsiz! , Bu bot Usmon tarafidan yaratilagan")
 
 kb = [
         [KeyboardButton(text='/Sherik kerak'), KeyboardButton(text='/start')]
